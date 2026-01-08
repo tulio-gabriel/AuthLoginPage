@@ -16,8 +16,12 @@ build/
 backend/venv/
 backend/__pycache__/
 backend/*.pyc
-frontend/node_modules/
-frontend/.next/
-frontend/dist/
+Frontend/node_modules/
+Frontend/.next/
+Frontend/dist/
 .DS_Store
 Thumbs.db
+Frontend/auth/.next/
+Frontend/node_modules/
+Frontend/.next/
+Frontend/dist/
