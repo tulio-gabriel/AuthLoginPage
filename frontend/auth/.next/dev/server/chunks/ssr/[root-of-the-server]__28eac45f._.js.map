@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/ARQUIVOS%20AREA%20DE%20TRABALHO/coisa/AuthFlask/frontend/auth/app/Base/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\nexport default function Home(){\r\n\tfetch(\"http://localhost:5000/Protected\", {\r\n  \t\tcredentials: \"include\",\r\n\t});\r\n\r\n\t  return(\r\n\t\t<div>\r\n\t\t\t<h1 className=\"text-center mb-2 text-xl\">Auth App Base Page</h1>\r\n\t\t\t<h2 className=\"text-center mb-8\">You are Logged In, To Log Out Click Below</h2>\r\n\t\t\t<nav>\r\n        <ul className=\"flex gap-4 flex-row justify-center mt-2 mb-2\">\r\n          <li className=\"border border-black p-4 rounded-lg  text-3xl  bg-gray-200\">\r\n            <Link href=\"/SignUp\">Log Out</Link>\r\n          </li>\r\n        </ul>\r\n      </nav>\r\n\t\t</div>\r\n\t  )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACvB,MAAM,mCAAmC;QACtC,aAAa;IAChB;IAEE,qBACD,8OAAC;;0BACA,8OAAC;gBAAG,WAAU;0BAA2B;;;;;;0BACzC,8OAAC;gBAAG,WAAU;0BAAmB;;;;;;0BACjC,8OAAC;0BACI,cAAA,8OAAC;oBAAG,WAAU;8BACZ,cAAA,8OAAC;wBAAG,WAAU;kCACZ,cAAA,8OAAC,0LAAI;4BAAC,MAAK;sCAAU;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMjC"}}]
+}

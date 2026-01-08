@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/ARQUIVOS%20AREA%20DE%20TRABALHO/coisa/AuthFlask/frontend/auth/app/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\nexport default function Home(){\r\n\t  return(\r\n\t\t<div>\r\n\t\t\t<h1 className=\"text-center mb-2 text-xl\">Auth App Home Page</h1>\r\n\t\t\t<h2 className=\"text-center mb-8\">Please login or sign up to continue.</h2>\r\n\t\t\t<nav>\r\n        <ul className=\"flex gap-4 flex-row justify-center mt-2 mb-2\">\r\n          <li className=\"border border-black p-4 rounded-lg text-3xl bg-gray-200\">\r\n            <Link href=\"/Login\">Login</Link>\r\n          </li>\r\n          <li className=\"border border-black p-4 rounded-lg  text-3xl  bg-gray-200\">\r\n            <Link href=\"/SignUp\">SignUp</Link>\r\n          </li>\r\n        </ul>\r\n      </nav>\r\n\t\t</div>\r\n\t  )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACrB,qBACD,8OAAC;;0BACA,8OAAC;gBAAG,WAAU;0BAA2B;;;;;;0BACzC,8OAAC;gBAAG,WAAU;0BAAmB;;;;;;0BACjC,8OAAC;0BACI,cAAA,8OAAC;oBAAG,WAAU;;sCACZ,8OAAC;4BAAG,WAAU;sCACZ,cAAA,8OAAC,0LAAI;gCAAC,MAAK;0CAAS;;;;;;;;;;;sCAEtB,8OAAC;4BAAG,WAAU;sCACZ,cAAA,8OAAC,0LAAI;gCAAC,MAAK;0CAAU;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMjC"}}]
+}
